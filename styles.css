@@ -1,0 +1,187 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #07ecc2;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.mistericey {
+    text-align: center;
+    background-color: #5007ec6b;
+    padding: 50px 20px;
+}
+
+.mistericey h1 {
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.mistericey p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+.flavours {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.flavours h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+
+.ourflavours {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    overflow-x: auto; 
+    padding-bottom: 10px;
+    scroll-behavior: smooth;
+}
+
+
+
+.icebox {
+    background-color: #07ecc2;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+    flex: 0 0 auto; 
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.icebox img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.icebox:hover {
+    transform: scale(1.1);
+}
+
+/* yo footer ko css ho */
+footer {
+    background-color: #07ecc2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/* yo mero flavour ko animation ho */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* yo about ko css ho */
+.about {
+    background-color: #ffffff;
+    padding: 80px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-in-out;
+}
+
+.about h1 {
+    font-size: 2.8rem;
+    color: #07ecc2;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about p {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.about:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+
+/*yo hamro scoopes ko css ho*/
+.scoop {
+    background-color: #0ecfcf;
+    padding: 50px 20px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.scoop h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #07ecc2;
+    font-weight: bold;
+}
+
+.scoop p {
+    font-size: 1.4rem;
+    color: #333;
+    margin-top: 15px;
+}
+
+.scoop img {
+    width: 70%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
